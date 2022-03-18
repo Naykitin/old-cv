@@ -1,0 +1,27 @@
+body {
+  background-color: #fcfcfc;
+  color: #707070;
+}
+
+h1, h2, h3 {
+  color: #4a4a4a;
+}
+
+p, span, ul, a {
+  color: #707070;
+}
+
+aside {
+  background-color: #d2d2d2;
+}
+
+main {
+  background-color: #f3f3f3;
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+  .container aside, .container main {
+    background-color: #d2d2d2;
+  }
+}

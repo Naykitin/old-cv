@@ -1,0 +1,35 @@
+// variable css
+$bodyColor: #fcfcfc;
+$asideColor: #4a4a4a;
+$mainColor: #707070;
+$textColor: #f3f3f3;
+$titleColor: #d2d2d2;
+$mobColor: #4a4a4a;
+
+// base
+body {
+   background-color: $bodyColor;
+   color: $textColor;
+}
+h1,h2,h3 {
+   color: $titleColor;
+}
+p,span,ul,a {
+   color: $textColor;
+}
+aside {
+   background-color: $asideColor;
+}
+
+main {
+   background-color: $mainColor;
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+   .container {
+      aside, main {
+         background-color: $mobColor;
+      }
+   }
+  }
