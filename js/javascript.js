@@ -49,7 +49,7 @@ $(document).ready( function() {
     // и потом если нужен код только для телефона:
     if (isMobile) {
       var header = $(".porfolio .wrapper .item");
-      var scrollChange = 800;
+      var scrollChange = 700;
       $(window).scroll(function() {
           var scroll = $(window).scrollTop();
   
