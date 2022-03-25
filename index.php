@@ -73,8 +73,8 @@ if(!isset($_SESSION["theme"]))
             <h2 class="upper">Porfolio</h2>
             <div class="wrapper">
                <div class="item" hover>
-                  <a href="http://m997648r.beget.tech/" target="_blank">Med-Master</a>
-                  <a href="https://github.com/Naykitin/portfolio" target="_blank">GitHub</a>
+                  <a href="https://med-master.000webhostapp.com/" target="_blank">Med-Master</a>
+                  <a href="https://github.com/Naykitin/Med-Master" target="_blank">GitHub</a>
                </div>
             </div>
          </section>
