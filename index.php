@@ -69,7 +69,7 @@ if(!isset($_SESSION["theme"]))
             <p>HTML coder | Aweb Systems | Feb 2021 – March 2022</p>
          </section>
          <section class="porfolio">
-            <h2 class="upper">Porfolio</h2>
+            <h2 class="upper">Portfolio</h2>
             <div class="wrapper">
                <div class="item" hover>
                   <a href="https://med-master.000webhostapp.com/" target="_blank">Med-Master</a>
