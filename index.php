@@ -60,7 +60,6 @@ if(!isset($_SESSION["theme"]))
       <main>
          <section class="profile">
             <h2 class="upper">Profile</h2>
-            <p>I took a course at HTML Academy, then got a job as a coder (1 year experience).</p>
             <p>I mainly worked with popular CMS: Worpress, Bitrix, Joomla, OpenCart, ModX.</p>
             <p>Tasks performed: layout of pages, creation of adaptive, accordions and burger menus, connection and configuration of sliders, seo optimization. Also, the tasks included a developing landings and transfer sites to CMS. Experience with: Wix, Tilda.</p>
             <p>I am looking for a remote job where I can learn new technologies and improve my professional skills.</p>
