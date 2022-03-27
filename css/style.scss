@@ -168,9 +168,9 @@ main {
       .item {
          position: relative;
          display: flex;
-         width: 50%;
+         width: 48%;
          height: 200px;
-         background-image: url(../img/med-master.png);
+         
          background-size: cover;
          transition: .5s all;
 
@@ -192,6 +192,8 @@ main {
             transition: .6s all;
          }
       }
+      .item:nth-child(1) {background-image: url(../img/med-master.png);}
+      .item:nth-child(2) {background-image: url(../img/ticTacToe.png);}
       .item::before,
       .item.hover::before {
          content: '';
@@ -202,10 +204,12 @@ main {
          border: 1px solid transparent;
          transition: .5s all;
       }
+      .item:nth-child(1):hover,
+      .item:nth-child(1).hover {background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/med-master.png);}
+      .item:nth-child(2):hover,
+      .item:nth-child(2).hover {background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/ticTacToe.png);}
       .item:hover,
       .item.hover {
-         background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/med-master.png);
-
          a {
             opacity: 1;
          }

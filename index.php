@@ -75,6 +75,10 @@ if(!isset($_SESSION["theme"]))
                   <a href="https://med-master.000webhostapp.com/" target="_blank">Med-Master</a>
                   <a href="https://github.com/Naykitin/Med-Master" target="_blank">GitHub</a>
                </div>
+               <div class="item" hover>
+                  <a href="https://naykitin.github.io/" target="_blank">Tic-tac-toe</a>
+                  <a href="https://github.com/Naykitin/tic-tac-toe" target="_blank">GitHub</a>
+               </div>
             </div>
          </section>
          <section class="education">
