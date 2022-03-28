@@ -25,7 +25,7 @@ if(!isset($_SESSION["theme"]))
    <?php include "themes.php" ?>
       <aside>
          <header class="header">
-            <a href="files/Nikitin_Vladyslav_CV.docx" class="header__download" download>
+            <a href="files/Nikitin_Vladyslav_CV.pdf" class="header__download" download>
                <i class='bx bx-download'></i>
             </a>
             <div class="header__main">
