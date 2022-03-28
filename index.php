@@ -72,7 +72,7 @@ if(!isset($_SESSION["theme"]))
             <h2 class="upper">Portfolio</h2>
             <div class="wrapper">
                <div class="item" hover>
-                  <a href="https://med-master.000webhostapp.com/" target="_blank">Med-Master</a>
+                  <a href="http://m997648r.beget.tech/" target="_blank">Med-Master(try with VPN pls😄)</a>
                   <a href="https://github.com/Naykitin/Med-Master" target="_blank">GitHub</a>
                </div>
                <div class="item" hover>
