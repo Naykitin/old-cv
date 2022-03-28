@@ -184,19 +184,24 @@ main {
             color: #fff;
             text-transform: uppercase;
             text-align: center;
+            z-index: 2;
          }
-
-         a:nth-child(1) {
+         a:nth-child(2) {
             transform: translate(-50%, -10px);
             transition: .5s all;
          }
-         a:nth-child(2) {
+         a:nth-child(3) {
             transform: translate(-50%, -20px);
             transition: .6s all;
          }
+         img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: .8s all;
+        }
       }
-      .item:nth-child(1) {background-image: url(../img/med-master.png);}
-      .item:nth-child(2) {background-image: url(../img/ticTacToe.png);}
       .item::before,
       .item.hover::before {
          content: '';
@@ -207,20 +212,19 @@ main {
          border: 1px solid transparent;
          transition: .5s all;
       }
-      .item:nth-child(1):hover,
-      .item:nth-child(1).hover {background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/med-master.png);}
-      .item:nth-child(2):hover,
-      .item:nth-child(2).hover {background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/ticTacToe.png);}
       .item:hover,
       .item.hover {
          a {
             opacity: 1;
          }
-         a:nth-child(1) {
+         a:nth-child(2) {
             transform: translate(-50%, -70px);
          }
-         a:nth-child(2) {
+         a:nth-child(3) {
             transform: translate(-50%, -40px);
+         }
+         img {
+            filter: brightness(.5);
          }
       }
       .item:hover::before,
@@ -228,6 +232,7 @@ main {
          border: 1px solid #fff;
          width: 95%;
          height: 90%;
+         z-index: 1;
       }
    }
 }
