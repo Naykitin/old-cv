@@ -89,7 +89,7 @@ if(!isset($_SESSION["theme"]))
                </div>
                <div class="item" hover>
                   <img src="../img/todo.png" alt="">
-                  <a href="/todo-list/index.html" target="_blank">Tic-tac-toe</a>
+                  <a href="/todo-list/index.html" target="_blank">Todo List</a>
                   <a href="https://github.com/Naykitin/to-do-list" target="_blank">GitHub</a>
                </div>
             </div>

@@ -21,7 +21,7 @@ body {
    width: 450px;
    min-height: 200px;
    padding: 10px;
-   margin: 0 10px;
+   margin: 10px;
    background: #ffffff29;
    border-radius: 20px;
 }
@@ -116,7 +116,7 @@ ul > li {
    padding: 0 5px;
    background: #fff;
    width: 90%;
-   height: 40px;
+   min-height: 40px;
    border-radius: 10px;
    overflow-y: scroll;
 }
