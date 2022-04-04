@@ -12,12 +12,12 @@ if(!isset($_SESSION["theme"]))
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/<?php echo $_SESSION["theme"]; ?>.css" id="theme-link">
   <link rel="stylesheet" href="lightbox2/dist/css/lightbox.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script type="text/javascript" src="/js/javascript.js"></script>
+  <script type="text/javascript" src="js/javascript.js"></script>
   <script type="text/javascript" src="exform/exform.js"></script>
   <script type="text/javascript" src="lightbox2/dist/js/lightbox.min.js"></script>
   <script type="text/javascript">
@@ -303,7 +303,7 @@ if(!isset($_SESSION["theme"]))
     <?php include "footer.php" ?>
 
     
-   <script type="text/javascript" src="/js/jquery.spincrement.js"></script>
+   <script type="text/javascript" src="js/jquery.spincrement.js"></script>
   </div>
 </body>
 </html>
