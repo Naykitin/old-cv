@@ -1,0 +1,161 @@
+$lightText: #fff;
+
+.header {
+   background-image: url('../img/header.png');
+
+   .header_top {
+      background-color: rgba(100, 196, 199, 0.702);
+   }
+}
+.comp_block-item {
+   p {
+       color: rgb(0, 0, 0);
+   }
+}
+.comp_block-box {
+   background-color: rgba(100, 196, 199, 0.2);
+   box-shadow: 0px 3px 3px 0px rgb(0 0 0 / 20%);
+
+   span {
+       color: rgb(65, 65, 65);
+   }
+}
+.comp_block-box:hover {
+   box-shadow: 0px 6px 6px 0px rgb(0 0 0 / 20%);
+ }
+
+.header_top-info {
+   p {
+       color: $lightText;
+   }
+   a {
+       color: $lightText;
+   }
+}
+
+h2.prem_block-head {
+   color: $lightText;
+}
+
+.prem_block-item {
+   background-color: $lightText;
+}
+
+.expert_block-item {
+   .btn {
+      color: $lightText;
+  }
+  .btn:hover {
+   background-color: $lightText;
+ }
+}
+.expert_block-item_head {
+   p {
+       color: $lightText;
+   }
+}
+
+h2.review_block-head {
+   color: $lightText;
+}
+
+.responsive_review-item {
+   h4 {
+       color: $lightText;
+   }
+
+   p {
+       color: $lightText;
+   }
+
+   a {
+       color: $lightText;
+   }
+}
+
+h2.our_work_block-head {
+   color: $lightText;
+   position: relative;
+   z-index: 1;
+}
+
+.adress {
+   color: $lightText;
+}
+
+.expert_block-item_head {
+   background-color: rgb(100, 196, 199);
+}
+
+.ask_block {
+   background-color: rgb(244, 242, 242);
+}
+h2.ask_block-head {
+   color: rgb(32, 32, 32);
+}
+
+.certificates_block {
+   background-color: rgb(248, 248, 248);
+ }
+ h2.certificates_block-head {
+   color: rgb(0, 0, 0);
+}
+
+.contacts_block {
+   background-image: url('../img/contacts.png');
+}
+.contacts_block-btn {
+   color: $lightText;
+   border: 1px solid $lightText;
+}
+.contacts_block-btn:hover {
+   background-color: $lightText;
+ }
+ .contacts_block-tel a {
+   color: $lightText;
+}
+
+.prem_block {
+   background-image: url(../img/prem_block.png);
+}
+
+h2.expert_block-head {
+   color: rgb(65, 65, 65);
+}
+
+.consultation_block {
+   background-color: rgb(244, 242, 242);
+}
+h2.consultation_block-head {
+   color: rgb(32, 32, 32);
+}
+h2.consultation_block-head:before {
+   background-color: rgb(100, 196, 199);
+}
+
+h2.problem_block-head {
+   color: rgb(65, 65, 65);
+}
+ul.problem_block-ul {
+   span {
+      color: rgb(65, 65, 65)!important;
+   }
+}
+
+.our_work_block {
+   background-image: url('../img/our_work_bg.png');
+}
+
+h2.company_block-head {
+   color: rgb(65, 65, 65);
+}
+
+.company_block-p {
+   p {
+       color: rgb(0, 0, 0);
+   }
+}
+
+.to-top:hover {
+   background-color: rgba(0, 0, 0, 0.2);
+ }

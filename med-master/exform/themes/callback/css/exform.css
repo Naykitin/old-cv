@@ -1,0 +1,130 @@
+@import url("../../../css/mform.css");
+@import url("../../../../css/style.css");
+
+.exform_wrapper.callback {
+	font: 20px 'Roboto Condensed', sans-serif;
+  color: #000;
+  background: transparent;
+  border: none;
+  padding: 0px 31px 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.exform_wrapper.callback .exform_header {
+  color: #fff;
+  font-size: 46px;
+  font-family: "Verdana";
+  line-height: 1.2;
+  font-weight: bold;
+  text-transform: uppercase;
+	margin-bottom: 60px;
+	position: relative;
+}
+.exform_wrapper.callback .exform_header:before {
+	position: absolute;
+	content: "";
+	width: 270px;
+	height: 1px;
+	background-color: #fff;
+	bottom: -25px;
+	left: 0;
+}
+.exform_wrapper.callback .exform_addmsg {
+	font-size: 18px;
+	font-family: "Verdana";
+	color: rgb(255, 255, 255);
+	line-height: 1.2;
+	margin-bottom: 15px;
+}
+
+.callback form {
+	display: flex;
+  flex-direction: row;
+  align-items: center;
+	flex-wrap: wrap;
+}
+
+.exform_wrapper.callback input[type="text"]:focus, .exform_wrapper.callback .exform_wrapper textarea:focus {background:#ffd;}
+.exform_wrapper.callback .inpt_wrpr {
+	display: flex;
+  align-items: center;
+	flex-wrap: wrap;
+  padding: 0;
+  flex-direction: row-reverse;
+}
+.exform_wrapper.callback .inpt_wrpr input[name="mf_phone_time"] {display: none;}
+
+
+.exform_wrapper.callback input[type="text"],
+.exform_wrapper.callback textarea {
+	font-size: 14px;
+  border: 1px solid #ccc;
+  padding: 0px 7px;
+  height: 40px;
+  width: 180px;
+  color: rgb(201, 201, 201);
+  margin: 5px 10px 5px 0;
+  font-style: italic;
+  font-family: "Verdana";
+}
+.exform_wrapper.callback textarea{height:50px; resize:none; font-family: Arial;}
+
+.exform_wrapper.callback div.err {height:0; float:right; position:relative; left:0; top:11px;}
+
+.exform_wrapper.callback .mf_submit {text-align:center;}
+.exform_wrapper.callback .mf_submit .send_btn{
+	background-color: rgb(250, 191, 120);
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  width: 200px;
+  height: 40px;
+	border: none;
+  font-size: 14px;
+  font-family: "Verdana";
+	transition: 0.2s;
+ }
+ .exform_wrapper.callback .mf_submit .send_btn:hover {
+	 color: rgb(250, 191, 120);
+	 background-color: #fff;
+	 transition: 0.2s;
+ }
+
+.exform_wrapper.callback .exf_captcha input[type="text"], .exform_wrapper.callback .captcha_img {float:left;}
+.exform_wrapper.callback .exf_captcha input[type="text"] {width:130px;}
+.exform_wrapper.callback .captcha_img {width:160px; height:34px; margin:2px 0 0 4px;}
+#mf_captcha_callback {width:160px; border:solid 1px #ccc;}
+.exform_wrapper.callback .exf_captcha a {display:block; width:32px; height:32px; float:right; margin:4px -10px 0 0; background:url(refresh.png);}
+
+.exform_wrapper.callback.finmsg {width:400px; min-height:50px; padding:10px; position:absolute; left:50%; top:50%; margin:-60px 0 0 -200px;}
+.exform_wrapper.callback.finmsg p{text-align:center;}
+.exf_captcha {display: none;}
+.close_btn {
+	width: 20px!important;
+	height: 20px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background: url('/exform/imgs/exit.png') no-repeat;
+	background-size: 100%;
+	border: none;
+	cursor: pointer;
+}
+
+.close_btn:focus { outline: none; }
+
+.lab{
+	font-size:13px;
+}
+@media (max-width: 480px) {
+  .exform_wrapper.callback .inpt_wrpr {
+    justify-content: center;
+  }
+  .callback form {
+    justify-content: center;
+  }
+  .exform_wrapper.callback .exform_header {
+    font-size: 37px;
+  }
+}
