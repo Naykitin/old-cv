@@ -115,13 +115,23 @@ ul.menu {
 
 
 
-.header_form {
+.header_welcome {
     display: flex;
-    height: 88%;
-    width: 100%;
-    margin-top: 50px;
-    align-items: center;
-    justify-content: flex-start;
+    flex-direction: column;
+    width: 50%;
+    margin: 50px;
+    align-items: flex-start;
+    justify-content: center;
+    color: #fff;
+    h1 {
+      text-transform: uppercase;
+      font-size: 3em;
+    }
+    .header_welcome-hr {
+      width: 50%;
+      border: 1px solid #fff;
+      margin: 20px 0;
+    }
 }
 
 .comp_block {
@@ -856,7 +866,10 @@ input:checked + .slider:before {
   .contacts_block-btn {
     margin: 10px auto;
   }
-
+  .header_welcome {
+    width: 90%;
+    margin: 20px auto;
+  }
 }
 
 /* Landscape phones and smaller */

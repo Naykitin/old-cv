@@ -27,8 +27,12 @@
     </div>
 
   </div>
-  <div class="header_form">
-    <div class="callback"></div>
+  <div class="header_welcome">
+    <h1>Med-master</h1>
+    <p>Лучшие врачи только у нас</p>
+    <hr class="header_welcome-hr">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas esse dolore pariatur tenetur blanditiis amet beatae, nostrum ipsum? Cumque corrupti saepe quo nesciunt! Quasi repellendus illo eaque porro saepe consectetur.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas esse dolore pariatur tenetur blanditiis amet beatae, nostrum ipsum? Cumque corrupti saepe quo nesciunt! Quasi repellendus illo eaque porro saepe consectetur amet beatae, nostrum ipsum? Cumque corrupti saepe quo nesciunt! Quasi repellendus illo eaque porro saepe consectetur.</p>
   </div>
 
 </div>
