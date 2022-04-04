@@ -73,6 +73,11 @@ if(!isset($_SESSION["theme"]))
             <h2 class="upper">Portfolio</h2>
             <div class="wrapper">
                <div class="item" hover>
+                  <img src="../img/kukuruza.png" alt="">
+                  <a href="/kukuruza/index.html" target="_blank">Kukuruza</a>
+                  <a href="https://github.com/Naykitin/OmgTest" target="_blank">GitHub</a>
+               </div>
+               <div class="item" hover>
                   <img src="../img/med-master.png" alt="">
                   <a href="/med-master/index.php" target="_blank">Med-Master</a>
                   <a href="https://github.com/Naykitin/Med-Master" target="_blank">GitHub</a>
