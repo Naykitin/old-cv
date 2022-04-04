@@ -87,6 +87,11 @@ if(!isset($_SESSION["theme"]))
                   <a href="https://naykitin.github.io/" target="_blank">Tic-tac-toe</a>
                   <a href="https://github.com/Naykitin/tic-tac-toe" target="_blank">GitHub</a>
                </div>
+               <div class="item" hover>
+                  <img src="../img/ticTacToe.png" alt="">
+                  <a href="https://naykitin.github.io/" target="_blank">Tic-tac-toe</a>
+                  <a href="https://github.com/Naykitin/tic-tac-toe" target="_blank">GitHub</a>
+               </div>
             </div>
          </section>
          <section class="education">
