@@ -74,7 +74,7 @@ if(!isset($_SESSION["theme"]))
             <div class="wrapper">
                <div class="item" hover>
                   <img src="../img/med-master.png" alt="">
-                  <a href="http://m997648r.beget.tech/" target="_blank">Med-Master<br>(try with VPN pls😄)</a>
+                  <a href="/Med-master/index.php" target="_blank">Med-Master</a>
                   <a href="https://github.com/Naykitin/Med-Master" target="_blank">GitHub</a>
                </div>
                <div class="item" hover>
