@@ -88,9 +88,9 @@ if(!isset($_SESSION["theme"]))
                   <a href="https://github.com/Naykitin/tic-tac-toe" target="_blank">GitHub</a>
                </div>
                <div class="item" hover>
-                  <img src="../img/ticTacToe.png" alt="">
-                  <a href="https://naykitin.github.io/" target="_blank">Tic-tac-toe</a>
-                  <a href="https://github.com/Naykitin/tic-tac-toe" target="_blank">GitHub</a>
+                  <img src="../img/todo.png" alt="">
+                  <a href="/to-do-list/index.html" target="_blank">Tic-tac-toe</a>
+                  <a href="https://github.com/Naykitin/to-do-list" target="_blank">GitHub</a>
                </div>
             </div>
          </section>
