@@ -17,14 +17,12 @@ function ChangeTheme()
       if(currTheme == lightTheme && localStorage.getItem('currTheme') == 'true') {
          currTheme = darkTheme;
          theme = "dark";
-         localStorage.setItem('currTheme', 'false');
          themeToggle.classList.toggle("bxs-moon");
          themeToggle.classList.toggle("bxs-sun");
       }
       else {    
          currTheme = lightTheme;
          theme = "light";
-         localStorage.setItem('currTheme', 'true');
          themeToggle.classList.toggle("bxs-sun");
          themeToggle.classList.toggle("bxs-moon");
       }
@@ -41,7 +39,7 @@ function ChangeTheme()
 
 // делаете переменную в начале кода
 var isMobile = false;
-// проверка на размер экрана (размер я брал вроде с Bootstrap-а)
+// проверка на размер экрана
 $(document).ready( function() {
     if ($('body').width() <= 480) {
         isMobile = true;
@@ -60,4 +58,25 @@ $(document).ready( function() {
           }
       });
     }
+});
+
+$(document).ready(function() {
+
+	//E-mail Ajax Send
+	$("#form").submit(function() { //Change
+		var th = $(this);
+		$.ajax({
+			type: "POST",
+			url: "mail.php", //Change
+			data: th.serialize()
+		}).done(function() {
+			alert("Thank you!");
+			setTimeout(function() {
+				// Done Functions
+				th.trigger("reset");
+			}, 1000);
+		});
+		return false;
+	});
+
 });

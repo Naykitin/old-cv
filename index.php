@@ -103,6 +103,21 @@ if(!isset($_SESSION["theme"]))
             </ul>
          </section>
 
+         <section class="contact">
+            <form id="form">
+               <!-- Hidden Required Fields -->
+               <input type="hidden" name="project_name" value="Nikitin_CV">
+               <input type="hidden" name="admin_email" value="vladnik1999@mail.com">
+               <input type="hidden" name="form_subject" value="Form Subject">
+               <!-- END Hidden Required Fields -->
+
+               <input type="text" name="Name" placeholder="You name..." required><br>
+               <input type="text" name="E-mail" placeholder="You E-mail..." required><br>
+               <input type="text" name="Phone" placeholder="You phone..."><br>
+               <button>Send</button>
+            </form>
+         </section>
+
       </main>
    </div>
 
