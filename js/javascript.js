@@ -14,7 +14,7 @@ function ChangeTheme()
       var theme = "";
       
    
-      if(currTheme == lightTheme && localStorage.getItem('currTheme') == 'true') {
+      if(currTheme == lightTheme) {
          currTheme = darkTheme;
          theme = "dark";
          themeToggle.classList.toggle("bxs-moon");
