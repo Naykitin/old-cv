@@ -122,8 +122,5 @@ if(!isset($_SESSION["theme"]))
       </main>
    </div>
 
-
-
-
 </body>
 </html>
