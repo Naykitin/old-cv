@@ -17,6 +17,14 @@ h1,h2,h3 {
 p,span,ul,a {
    color: $textColor;
 }
+button {
+   color: $textColor;
+   border-color: $textColor;
+}
+button:hover {
+   box-shadow: inset 90px 0px 0px 0px #000000!important;
+   color: $mainColor;
+}
 aside {
    background-color: $asideColor;
 }
@@ -24,6 +32,7 @@ aside {
 main {
    background-color: $mainColor;
 }
+
 
 /* Landscape phones and smaller */
 @media (max-width: 480px) {

@@ -104,6 +104,7 @@ if(!isset($_SESSION["theme"]))
          </section>
 
          <section class="contact">
+            <h2 class="upper">Contact</h2>
             <form id="form">
                <!-- Hidden Required Fields -->
                <input type="hidden" name="project_name" value="Nikitin_CV">
@@ -111,9 +112,9 @@ if(!isset($_SESSION["theme"]))
                <input type="hidden" name="form_subject" value="Form Subject">
                <!-- END Hidden Required Fields -->
 
-               <input type="text" name="Name" placeholder="You name..." required><br>
-               <input type="text" name="E-mail" placeholder="You E-mail..." required><br>
-               <input type="text" name="Phone" placeholder="You phone..."><br>
+               <input type="text" name="E-mail" placeholder="E-mail..." required>
+               <input type="text" name="Name" placeholder="Name..." required>
+               <textarea type="text" name="text" placeholder="Text..."></textarea>
                <button>Send</button>
             </form>
          </section>
