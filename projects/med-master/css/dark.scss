@@ -1,0 +1,187 @@
+$darkText: #fff;
+$blockBG: #585858;
+.to-top img {
+   filter: invert(1);
+}
+
+body {
+  background: #121212;
+}
+
+.header {
+   background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.1)),url(../img/header.png);
+
+   .header_top {
+      background-color: transparent;
+   }
+}
+
+.comp_block-item {
+  p {
+      color: $darkText;
+  }
+}
+.comp_block-box {
+  background-color: $blockBG;
+  box-shadow: 0px 3px 3px 0px rgb(255 255 255 / 20%);
+  transition: 0.2s;
+
+  span {
+      color: $darkText;
+  }
+}
+.comp_block-box:hover {
+box-shadow: 0px 6px 6px 0px rgb(255 255 255 / 20%);
+transition: 0.2s;
+}
+
+.header_top-info {
+   p {
+       color: $darkText;
+   }
+   a {
+       color: $darkText;
+   }
+}
+
+h2.prem_block-head {
+   color: $darkText;
+}
+
+.prem_block-item {
+   background-color: $darkText;
+}
+
+.expert_block-item {
+   .btn {
+      color: $darkText;
+  }
+  .btn:hover {
+   background-color: $darkText;
+ }
+}
+.expert_block-item_head {
+   p {
+       color: $darkText;
+   }
+}
+
+h2.review_block-head {
+   color: $darkText;
+}
+
+.responsive_review-item {
+   h4 {
+       color: $darkText;
+   }
+
+   p {
+       color: $darkText;
+   }
+
+   a {
+       color: $darkText;
+   }
+}
+
+h2.our_work_block-head {
+   color: $darkText;
+   position: relative;
+   z-index: 1;
+}
+
+.adress {
+   color: $darkText;
+}
+
+.expert_block-item_head {
+   background-color: $blockBG;
+}
+
+.ask_block {
+   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/our_work_bg-black.png);
+    margin-top: 30px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2.ask_block-head {
+   color: $darkText;
+}
+
+.certificates_block {
+   margin-bottom: 30px;
+ }
+h2.certificates_block-head {
+   color: $darkText;
+}
+.responsive_certificates_block .slick-prev, .responsive_certificates_block .slick-next {
+   opacity: 1!important;
+}
+
+.certificates_block,
+.contacts_block {
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url(../img/reviewbg.png);
+}
+.contacts_block-btn {
+   color: $darkText;
+   border: 1px solid $darkText;
+}
+.contacts_block-btn:hover {
+   background-color: $darkText;
+ }
+ .contacts_block-tel a {
+   color: $darkText;
+}
+
+.prem_block {
+   background-image: url(../img/prem_block-black.png);
+}
+
+h2.expert_block-head {
+   color: $darkText;
+}
+
+.consultation_block {
+   background-image: url(../img/prem_block-black.png);
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+h2.consultation_block-head {
+   color: $darkText;
+}
+h2.consultation_block-head:before {
+   background-color: rgb(250, 191, 120);
+}
+
+h2.problem_block-head {
+   color: $darkText;
+}
+ul.problem_block-ul {
+   span {
+      color: $darkText!important;
+   }
+}
+
+.our_work_block {
+   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/our_work_bg-black.png');
+}
+
+h2.company_block-head {
+   color: $darkText;
+}
+
+.company_block-p {
+   p {
+       color: $darkText;
+   }
+}
+
+
+.to-top:hover {
+   background-color: #64c4c796;
+ }

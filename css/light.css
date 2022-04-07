@@ -11,6 +11,17 @@ p, span, ul, a {
   color: #707070;
 }
 
+button {
+  color: #707070;
+  border-color: #707070;
+}
+
+button:hover {
+  -webkit-box-shadow: inset 90px 0px 0px 0px #000000 !important;
+          box-shadow: inset 90px 0px 0px 0px #000000 !important;
+  color: #f3f3f3;
+}
+
 aside {
   background-color: #d2d2d2;
 }

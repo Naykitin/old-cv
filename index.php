@@ -73,14 +73,24 @@ if(!isset($_SESSION["theme"]))
             <h2 class="upper">Portfolio</h2>
             <div class="wrapper">
                <div class="item" hover>
+                  <img src="../img/kukuruza.png" alt="">
+                  <a href="/projects/kukuruza/index.html" target="_blank">Kukuruza</a>
+                  <a href="https://github.com/Naykitin/OmgTest" target="_blank">GitHub</a>
+               </div>
+               <div class="item" hover>
                   <img src="../img/med-master.png" alt="">
-                  <a href="http://m997648r.beget.tech/" target="_blank">Med-Master<br>(try with VPN pls😄)</a>
+                  <a href="/projects/med-master/index.php" target="_blank">Med-Master</a>
                   <a href="https://github.com/Naykitin/Med-Master" target="_blank">GitHub</a>
                </div>
                <div class="item" hover>
                   <img src="../img/ticTacToe.png" alt="">
                   <a href="https://naykitin.github.io/" target="_blank">Tic-tac-toe</a>
                   <a href="https://github.com/Naykitin/tic-tac-toe" target="_blank">GitHub</a>
+               </div>
+               <div class="item" hover>
+                  <img src="../img/todo.png" alt="">
+                  <a href="/projects/todo-list/index.html" target="_blank">Todo List</a>
+                  <a href="https://github.com/Naykitin/to-do-list" target="_blank">GitHub</a>
                </div>
             </div>
          </section>
@@ -91,6 +101,22 @@ if(!isset($_SESSION["theme"]))
             <li>Specialization: Automation and computer-integrated technologies</li>
             <li>Diploma work: Development of a training web application for a workshop on automating testing of web applications</li>
             </ul>
+         </section>
+
+         <section class="contact">
+            <h2 class="upper">Contact</h2>
+            <form id="form">
+               <!-- Hidden Required Fields -->
+               <input type="hidden" name="project_name" value="Nikitin_CV">
+               <input type="hidden" name="admin_email" value="vladnik1999@gmail.com">
+               <input type="hidden" name="form_subject" value="Form Subject">
+               <!-- END Hidden Required Fields -->
+
+               <input type="text" name="E-mail" placeholder="E-mail..." required>
+               <input type="text" name="Name" placeholder="Name..." required>
+               <textarea type="text" name="text" placeholder="Text..."></textarea>
+               <button>Send</button>
+            </form>
          </section>
 
       </main>

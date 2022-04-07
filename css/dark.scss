@@ -17,6 +17,15 @@ h1,h2,h3 {
 p,span,ul,a {
    color: $textColor;
 }
+button {
+   color: $textColor;
+   border-color: $textColor;
+}
+button:hover {
+   background-color: $textColor;
+   color: $bodyColor;
+   border-color: $bodyColor;
+}
 aside {
    background-color: $asideColor;
 }

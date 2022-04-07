@@ -1,0 +1,75 @@
+@import url("../../../css/mform.css");
+
+.exform_wrapper.callbackhead {width:360px; font:20px 'Roboto Condensed', sans-serif; color:#000; background:#fff; border:none; padding:36px 31px 0; border-radius:0;}
+
+.exform_wrapper.callbackhead .exform_header {text-align:center; padding:5px 0; margin:5px; color: #000; text-transform:uppercase;}
+.exform_wrapper.callbackhead .exform_addmsg {text-align:center; font-size:12px; margin:10px 0 0;}
+.exform_addmsg a {color: rgb(250, 191, 120);}
+.exform_addmsg a:hover {color: rgb(250, 191, 120);text-decoration: none;}
+
+
+.exform_wrapper.callbackhead input[type="text"]:focus, .exform_wrapper.callbackhead .exform_wrapper textarea:focus {background:#ffd;}
+.exform_wrapper.callbackhead .inpt_wrpr {margin:5px 0 5px -10px; padding:20px;}
+.exform_wrapper.callbackhead input[type="text"],
+.exform_wrapper.callbackhead textarea {
+	  font-size: 15px;
+  border: 1px solid #ccc;
+  padding: 0px 7px;
+  margin: 0;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  height: 25px;
+  text-align: left;
+  -moz-box-shadow: inset 1px 1px 4px #ccc;
+  -webkit-box-shadow: inset 1px 1px 4px #ccc;
+  box-shadow: inset 1px 1px 4px #ccc;
+  margin: 5px;
+  width: 90%;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.exform_wrapper.callbackhead textarea{height:50px; resize:none; font-family: Arial;}
+
+.exform_wrapper.callbackhead div.err {height:0; float:right; position:relative; left:0; top:11px;}
+
+.exform_wrapper.callbackhead .mf_submit {text-align:center; margin-top:7px;}
+.exform_wrapper.callbackhead .mf_submit .send_btn {
+  background-color: rgb(250, 191, 120);
+  cursor: pointer;
+  font-weight:bold;
+  color: #fff;
+  padding:5px 11px;
+	transition: 0.2s;
+	border: 2px solid rgb(250, 191, 120);
+ }
+.exform_wrapper.callbackhead .mf_submit .send_btn:hover {
+	background-color: #fff;
+	color: rgb(250, 191, 120);
+	transition: 0.2s;
+}
+.exform_wrapper.callbackhead .exf_captcha input[type="text"], .exform_wrapper.callbackhead .captcha_img {float:left;}
+.exform_wrapper.callbackhead .exf_captcha input[type="text"] {width:130px;}
+.exform_wrapper.callbackhead .captcha_img {width:160px; height:34px; margin:2px 0 0 4px;}
+#mf_captcha_callbackhead {width:160px; border:solid 1px #ccc;}
+.exform_wrapper.callbackhead .exf_captcha a {display:block; width:32px; height:32px; float:right; margin:4px -10px 0 0; background:url(refresh.png);}
+
+.exform_wrapper.callbackhead.finmsg {width:400px; min-height:50px; padding:10px; position:absolute; left:50%; top:50%; margin:-60px 0 0 -200px;}
+.exform_wrapper.callbackhead.finmsg p{text-align:center;}
+.exf_captcha {display: none;}
+.close_btn {
+	width: 20px!important;
+	height: 20px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background: url('/exform/imgs/exit.png') no-repeat;
+	background-size: 100%;
+	border: none;
+	cursor: pointer;
+}
+
+.close_btn:focus { outline: none; }
+
+.lab{
+	font-size:13px;
+}
