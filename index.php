@@ -74,12 +74,12 @@ if(!isset($_SESSION["theme"]))
             <div class="wrapper">
                <div class="item" hover>
                   <img src="../img/kukuruza.png" alt="">
-                  <a href="/kukuruza/index.html" target="_blank">Kukuruza</a>
+                  <a href="/projects/kukuruza/index.html" target="_blank">Kukuruza</a>
                   <a href="https://github.com/Naykitin/OmgTest" target="_blank">GitHub</a>
                </div>
                <div class="item" hover>
                   <img src="../img/med-master.png" alt="">
-                  <a href="/med-master/index.php" target="_blank">Med-Master</a>
+                  <a href="/projects/med-master/index.php" target="_blank">Med-Master</a>
                   <a href="https://github.com/Naykitin/Med-Master" target="_blank">GitHub</a>
                </div>
                <div class="item" hover>
@@ -89,7 +89,7 @@ if(!isset($_SESSION["theme"]))
                </div>
                <div class="item" hover>
                   <img src="../img/todo.png" alt="">
-                  <a href="/todo-list/index.html" target="_blank">Todo List</a>
+                  <a href="/projects/todo-list/index.html" target="_blank">Todo List</a>
                   <a href="https://github.com/Naykitin/to-do-list" target="_blank">GitHub</a>
                </div>
             </div>
