@@ -108,7 +108,7 @@ if(!isset($_SESSION["theme"]))
             <form id="form">
                <!-- Hidden Required Fields -->
                <input type="hidden" name="project_name" value="Nikitin_CV">
-               <input type="hidden" name="admin_email" value="vladnik1999@mail.com">
+               <input type="hidden" name="admin_email" value="vladnik1999@gmail.com">
                <input type="hidden" name="form_subject" value="Form Subject">
                <!-- END Hidden Required Fields -->
 
