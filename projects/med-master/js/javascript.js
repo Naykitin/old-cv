@@ -110,7 +110,6 @@ responsive: [
 
 
 $(document).ready(function () {
- 
   var show = true;
   var countbox = ".comp_block";
   $(window).on("scroll load resize", function () {
@@ -130,7 +129,6 @@ $(document).ready(function () {
           show = false;
       }
   });
-
 });
 
 $(document).ready(function(){
