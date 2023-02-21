@@ -67,7 +67,7 @@ if(!isset($_SESSION["theme"]))
          </section>
          <section class="experience">
             <h2 class="upper">Experience</h2>
-            <p>HTML coder | Aweb Systems | Feb 2021 – March 2022</p>
+            <p>HTML coder | Aweb Systems | Feb 2021 –– March 2022</p>
          </section>
          <section class="porfolio">
             <h2 class="upper">Portfolio</h2>
